@@ -14,6 +14,9 @@
 		3180F746238F70CB00BD8425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3180F744238F70CB00BD8425 /* LaunchScreen.storyboard */; };
 		3180F751238F70CB00BD8425 /* MediaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180F750238F70CB00BD8425 /* MediaAppTests.swift */; };
 		3180F75C238F70CB00BD8425 /* MediaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180F75B238F70CB00BD8425 /* MediaAppUITests.swift */; };
+		3180F76A238F716E00BD8425 /* SeocndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180F769238F716E00BD8425 /* SeocndViewController.swift */; };
+		3180F772238F84D400BD8425 /* SingletonFormsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3180F771238F84D400BD8425 /* SingletonFormsData.swift */; };
+		319606FD239674E80024C09D /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319606FC239674E80024C09D /* Decoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3180F757238F70CB00BD8425 /* MediaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3180F75B238F70CB00BD8425 /* MediaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAppUITests.swift; sourceTree = "<group>"; };
 		3180F75D238F70CB00BD8425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3180F769238F716E00BD8425 /* SeocndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeocndViewController.swift; sourceTree = "<group>"; };
+		3180F771238F84D400BD8425 /* SingletonFormsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonFormsData.swift; sourceTree = "<group>"; };
+		319606FC239674E80024C09D /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				3180F742238F70CB00BD8425 /* Assets.xcassets */,
 				3180F744238F70CB00BD8425 /* LaunchScreen.storyboard */,
 				3180F747238F70CB00BD8425 /* Info.plist */,
+				3180F769238F716E00BD8425 /* SeocndViewController.swift */,
+				3180F771238F84D400BD8425 /* SingletonFormsData.swift */,
+				319606FC239674E80024C09D /* Decoder.swift */,
 			);
 			path = MediaApp;
 			sourceTree = "<group>";
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3180F76A238F716E00BD8425 /* SeocndViewController.swift in Sources */,
 				3180F73E238F70C400BD8425 /* ViewController.swift in Sources */,
 				3180F73C238F70C400BD8425 /* AppDelegate.swift in Sources */,
+				319606FD239674E80024C09D /* Decoder.swift in Sources */,
+				3180F772238F84D400BD8425 /* SingletonFormsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
